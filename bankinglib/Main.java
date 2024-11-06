@@ -126,7 +126,6 @@ public class Main {
                         if (fromAccount.transfer(toAccount, transferAmount)) {
                             System.out.println("Chuyển tiền thành công.");
                             System.out.println("Số dư tài khoản gửi: " + fromAccount.getSodu());
-                            System.out.println("Số dư tài khoản nhận: " + toAccount.getSodu());
                         } else {
                             System.out.println("Chuyển tiền không thành công. Số dư không đủ.");
                         }
